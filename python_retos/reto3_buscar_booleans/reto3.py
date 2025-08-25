@@ -7,7 +7,7 @@
 
 import re
 
-texto = "La respuesta es True, pero a veces es False."
+texto = "La historia puede ser True o False"
 
 # Expresión regular para booleanos (True o False, case-insensitive)
 patron = r"\b(True|False)\b"

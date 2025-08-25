@@ -7,7 +7,7 @@
 
 import re
 
-texto = "El precio es 12.50 dólares, pero antes era 10.0."
+texto = "el precio de  los 10.9 kilos de harina valen 5.2 dolares"
 
 # Expresión regular para flotantes (números con punto decimal)
 patron = r"[+-]?\d+(?:\.\d+)?"

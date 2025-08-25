@@ -9,9 +9,9 @@ import java.util.regex.*;
 
 public class Reto5 {
     public static void main(String[] args) {
-        String texto = "Las listas son [1, 2, 3] y [4, 5, 6].";
+        String texto = "En matemáticas vemos listas como [-1, 0, 23], [100, -50, 75], y también [7,8,9,10].";
         // Expresión regular para listas de números
-        String patron = "\\[\\s*\\d+(?:\\s*,\\s*\\d+)*\\s*\\]";
+        String patron = "\\[\\s*-?\\d+(?:\\s*,\\s*-?\\d+)*\\s*\\]";
         Pattern pattern = Pattern.compile(patron);
         Matcher matcher = pattern.matcher(texto);
         System.out.print("Listas encontradas: ");

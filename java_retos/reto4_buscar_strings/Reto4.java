@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class Reto4 {
     public static void main(String[] args) {
-        String texto = "El mensaje es \"Hola mundo\" y la clave es \"1234\".";
+        String texto = "El usurio es: \"Julian_Cuervo27\" y la contraseña es \"123456\".";
         // Expresión regular para strings entre comillas dobles
         String patron = "\"(.*?)\"";
         Pattern pattern = Pattern.compile(patron);
